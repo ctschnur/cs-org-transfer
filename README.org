@@ -1,0 +1,2 @@
+* Isolating an org-mode file together with it's hyperlinked resources
+Publishing a blog article one may sometimes want the article to be stand-alone and not share it's resources with other articles (e.g. linked images). From a hyperlinked ~.org~ file, this code creates a subdirectory, selectively pulling in the linked resources and adapting the links in the ~.org~ file to link to the new paths in the resources subdirectory.
